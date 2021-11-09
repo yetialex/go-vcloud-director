@@ -13,7 +13,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 // vappTenantContext defines whether we use tenant context during vApp tests.

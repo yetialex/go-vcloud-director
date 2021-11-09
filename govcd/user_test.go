@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 
 	. "gopkg.in/check.v1"
 )

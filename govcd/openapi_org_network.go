@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 // OpenApiOrgVdcNetwork uses OpenAPI endpoint to operate both - NSX-T and NSX-V Org VDC networks

@@ -1,3 +1,6 @@
+## This fork
+* Added method `vdc.QueryWithCustomHeaders`
+
 ## 2.13.0 (September 30, 2021)
 
 ## FEATURES

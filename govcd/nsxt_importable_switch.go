@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 // NsxtImportableSwitch is a read only object to retrieve NSX-T segments (importable switches) to be used for Org VDC

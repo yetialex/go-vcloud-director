@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 // NsxtEdgeCluster is a logical grouping of NSX-T Edge virtual machines.

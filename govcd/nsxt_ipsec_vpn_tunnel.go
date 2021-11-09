@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
-	"github.com/vmware/go-vcloud-director/v2/util"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/util"
 )
 
 // NsxtIpSecVpnTunnel offers site-to-site connectivity between an Edge Gateway and remote sites which also use NSX-T

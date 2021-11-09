@@ -14,7 +14,7 @@ import (
 	"github.com/kr/pretty"
 	. "gopkg.in/check.v1"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 // accessControlType is an interface used to test access control for all entities that support it

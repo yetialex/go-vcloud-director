@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 func init() {

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/yetialex/go-vcloud-director/v2/types/v56"
 )
 
 type Results struct {
@@ -85,4 +85,15 @@ func getResult(client *Client, request *http.Request) (Results, error) {
 	}
 
 	return *results, nil
+}
+
+func (vdc *Vdc) QueryWithCustomHeaders(params, additionalHeaders map[string]string) (Results, error) {
+	queryUrl := vdc.client.VCDHREF
+	queryUrl.Path += "/query"
+	req := vdc.client.NewRequest(params, http.MethodGet, queryUrl, nil)
+	req.Header.Add("Accept", "vnd.vmware.vcloud.org+xml;version="+vdc.client.APIVersion)
+	for k, v := range additionalHeaders {
+		req.Header.Add(k, v)
+	}
+	return getResult(vdc.client, req)
 }
