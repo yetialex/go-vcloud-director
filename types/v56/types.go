@@ -2297,6 +2297,7 @@ type QueryResultVMRecordType struct {
 	HREF                     string    `xml:"href,attr,omitempty"` // The URI of the entity.
 	ID                       string    `xml:"id,attr,omitempty"`
 	Name                     string    `xml:"name,attr,omitempty"`          // VM name.
+	VmNameInVc               string    `xml:"vmNameInVc,attr,omitempty"`    // VM name in vCenter.
 	Type                     string    `xml:"type,attr,omitempty"`          // Contains the type of the resource.
 	ContainerName            string    `xml:"containerName,attr,omitempty"` // The name of the vApp or vApp template that contains this VM.
 	ContainerID              string    `xml:"container,attr,omitempty"`     // The ID of the vApp or vApp template that contains this VM.
